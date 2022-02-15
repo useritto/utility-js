@@ -94,8 +94,18 @@
     background-color: black;
 }
 
+.close-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5px;
+    /* border-radius: 50px; */
+    /* height: 15px; */
+        
+}
+
 .calculator-content { 
-	padding: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
